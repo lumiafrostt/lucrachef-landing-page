@@ -46,7 +46,7 @@ export const Route = createFileRoute("/")({
 
 const HOTMART_URL = "https://pay.hotmart.com/I105551667L?off=nwyzwlk1&checkoutMode=10";
 
-function LandingPage() {
+export function LandingPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <Header />
